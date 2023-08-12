@@ -16,10 +16,11 @@ body,html{
     min-height: 100vh;
     align-items: center;
     justify-content: center;
+  
 }
 
 .key{
-    border: .4rem solid black;
+    border: .4rem solid greenyellow;
     border-radius: .5rem;
     margin: 1rem;
     font-size: 1.5rem;
@@ -27,14 +28,15 @@ body,html{
     transition: all .07s ease;
     width: 10rem;
     text-align: center;
-    color: white;
-    background: rgba(0,0,0,0.4);
+    color: greenyellow;
+    background: rgba(0.2,0.2,0.2,1);
     text-shadow: 0 0 .5rem black;
 
 }
 .playing{
     transform: scale(1.1);
     border-color: #ffc600;
+    box-shadow: 0 0 10px #ffc600;
 }
 kbd{
     display: block;
